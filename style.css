@@ -1,0 +1,181 @@
+* {
+
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin-top: 47px;
+    margin-left: 42px;
+
+
+}
+
+.links {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #17233D;
+    margin-right: 36px;
+
+}
+
+img {
+    margin: 145px 0px 0px 121px;
+    display: inline-block;
+
+
+}
+
+.botao1 {
+    width: 124px;
+    height: 51px;
+
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 493px;
+
+
+}
+
+section {
+    min-width: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 1px;
+
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+
+
+}
+
+a {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+
+    letter-spacing: 1px;
+
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width:725px) {
+
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .links {
+        display: none;
+
+    }
+
+    section {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        display: block;
+        position: absolute;
+        top: 56vh;
+        margin: 59px 39px 22px;
+        width: 312px;
+        height: 288px;
+
+    }
+
+    .botao1 {
+        width: 91px;
+        height: 31px;
+        margin: 17px 15px 0px 284px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    h1 {
+        width: auto;
+        margin-top: 70px;
+        margin-left: 57px;
+        margin-right: 55px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+
+    h3 {
+        width: 304px;
+        margin: 29px 43px 43px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin-bottom: 83px;
+
+
+
+
+
+
+    }
+
+
+    a {
+        margin: 26px 139px 0px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:330px) {
+    img {
+        height: 50%;
+    }
+
+
+}
